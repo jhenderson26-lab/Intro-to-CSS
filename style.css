@@ -1,19 +1,29 @@
-h1 {
-    color: red;
-}
 
-h3 {
+
+.title {
     font-size: 28px;
 }
 
-body {
+.main_body {
     background-color: wheat;
     padding: 30px;
-}
+} 
 
 .highlight {
     background-color:rgb(212, 186, 70);
 }
+
+.where_stuff {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+}
+
+.items {
+    font-size: 20px;
+}
+
 
 #main-title {
     text-align: center;
@@ -24,7 +34,7 @@ body {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
-p {
+.about_me {
     margin-top: 25px;
     color: crimson;
     text-align: center;
@@ -54,19 +64,20 @@ p {
 
 
 
-table, th, td {
+.table_layout, .title, .table_text {
     border: 1px solid;
     text-align: center;
     
 }
 
-table {
+.table_layout {
     width: 40%;
 }
 
-div {
+.table {
     width: 100%;
     display: flex;
     justify-content: center;
     padding-bottom: 25px;
 }
+
